@@ -94,6 +94,9 @@ function checkGameOver(){
     })
     if(fillCount === 9){
         gameInfo.innerText = `Game Tied` ;
+        boxes.forEach((box)=>{
+            box.classList.add("tied");
+        });
         newGameBtn.classList.add("active");
     }
 }

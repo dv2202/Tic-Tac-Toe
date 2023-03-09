@@ -83,3 +83,6 @@
 .win{
     background-color: rgba(0, 255, 0, 0.3);
 }
+.tied{
+    background-color: rgb(232, 70, 70);
+}
